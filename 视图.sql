@@ -16,5 +16,8 @@ DELETE FROM v1 WHERE id=6;
 #删除视图
 DROP VIEW IF EXISTS v4;
 
+DESCRIBE v1#查看指定视图基本信息
+SHOW TABLE STATUS #查看所有数据表和视图基本信息
+SHOW CREATE VIEW v1#查看指定视图详细信息
 
 

@@ -28,3 +28,4 @@ ALTER TABLE t_test2 ADD INDEX id(id);
 #查看索引
 SHOW INDEX FROM t_test2;
 
+
